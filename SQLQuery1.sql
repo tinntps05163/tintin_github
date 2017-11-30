@@ -1,0 +1,1 @@
+alter table Ket_Qua add foreign key(IDSV) references SinhVien(IDSV) on delete cascade on update cascade
